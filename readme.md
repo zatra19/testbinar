@@ -8,11 +8,22 @@ Penulis : Anom Bhayu Maharsi (anombhayu.maharsi@gmail.com)
   - Desainlah stack backend dan micro service layanan tersebut beserta tools dan alasan mengapa memilih design dan tools tersebut.
   ```
   
+  Jawab :
+  
+  ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/diagram.jpg)
+  - Menggunakan lebih dari 1 database, guna memberi kemampuan untuk backup data ketika terjadi masalah pada database utama
+  - Menggunakan *load balancer* guna mengatur traffic yang terjadi terhadap setiap *webservice* atau API pada sistem
+  
 # No. 2
   ```
   Bagaimana menangani keamanan dalam pengiriman data (backend dan mobile apps) pada sistem diatas.
   - Jelaskan solusi tersebut beserta alasannya.
   ```
+  
+  Jawab :
+  
+  - Melakukan enkripsi terhadap data-data sensitif kita mengirim data dari backend maupun frontend
+  - Mengaktifkan fitur https / ssl saat melakukan komunikasi antar platform guna menjaga *privacy, integrity,* dan *identification* pada sebuah komunikasi
 
 # No. 3
   ```
@@ -81,4 +92,11 @@ Penulis : Anom Bhayu Maharsi (anombhayu.maharsi@gmail.com)
   8. Show data
      ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/v2.png)
 
-
+# No. 4
+  ```
+  Dari dokumen https://testbinar.docs.apiary.io/, menurut anda, apakah ada desian API yang kurang maupun keliru? Jika ada, tuliskan kekurangan-kekurangan desain tersebut dan bagaimana seharusnya dokumentasi itu ditulis.
+  ```
+  
+  Jawab :
+  
+  - Ketentuan status parameter API kurang dijelaskan, seperti tipe data dan keharusan sebuah parameter untuk membentuk sebuah request 
