@@ -2,8 +2,8 @@
 
 Penulis : Anom Bhayu Maharsi (anombhayu.maharsi@gmail.com)
 
-Testbinar, adalah sebuah aplikasi *RESTFul API* penerapan dari https://testbinar.docs.apiary.io/
-Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [Laravel 5.4](https://laravel.com/docs/5.4) 
+Testbinar, adalah sebuah aplikasi *RESTFul API* penerapan dari https://testbinar.docs.apiary.io/ 
+<br>Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [Laravel 5.4](https://laravel.com/docs/5.4) 
 
 ## Instalasi Program
 
@@ -13,7 +13,7 @@ Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [
   - MySQL
 
 #### Instalasi database
-  - Buatlah sebuah database MySQL dengan nama `binar` 
+  - Buatlah sebuah MySQL database dengan nama `binar` 
   
 #### Perintah instalasi
   1. ```> git clone https://github.com/anombhayu/testbinar.git```
@@ -36,3 +36,22 @@ Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [
   
 #### Menjalankan Aplikasi
   - ```> php artisan serve```
+
+#### Tangkapan layar Postman
+  
+  ##### Authentication
+  1. Login
+  2. Sign up
+  
+  ##### CRUD v1
+  3. Show data
+  4. Show data by ID
+  5. Create data
+  6. Update data
+  7. Delete data by ID
+  
+  ##### Testing API v2
+  8. Show data
+
+
+
