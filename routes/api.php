@@ -41,4 +41,19 @@ Route::group([
     Route::delete('products/{id}', 'Api\ProductController@destroy');
 });
 
+Route::group([
+
+    'middleware' => 'jwt.auth',
+    'prefix' => 'v2'
+
+], function ($router) {
+
+    // PRODUCT
+    Route::get('products', function() {
+        return response('{ "message" : "Hello there" }', 200)
+                  ->header('Content-Type', 'application/json');
+    });
+
+});
+
 

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Carbon\Carbon;
 
 class UsersTableSeeder extends Seeder
 {
@@ -15,6 +16,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'bot',
             'email' => 'bot@example.com',
             'password' => bcrypt('bot'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s')
         ]);
     }
 }
