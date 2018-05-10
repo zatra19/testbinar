@@ -1,9 +1,29 @@
-# testbinar
+# Assessment test
 
 Penulis : Anom Bhayu Maharsi (anombhayu.maharsi@gmail.com)
 
-Testbinar, adalah sebuah aplikasi *RESTFul API* penerapan dari https://testbinar.docs.apiary.io/ 
-<br>Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [Laravel 5.4](https://laravel.com/docs/5.4) 
+# No. 1
+  ```
+  Disebutkan seorang client membutuhkan layanan aplikasi antar makanan. Dan Anda diminta untuk membuat desain sistem dengan kriteria pelanggan hanya dilayani dengan mobile apps.
+  - Desainlah stack backend dan micro service layanan tersebut beserta tools dan alasan mengapa memilih design dan tools tersebut.
+  ```
+  
+# No. 2
+  ```
+  Bagaimana menangani keamanan dalam pengiriman data (backend dan mobile apps) pada sistem diatas.
+  - Jelaskan solusi tersebut beserta alasannya.
+  ```
+
+# No. 3
+  ```
+  Buatlah sebuah service RESTFul API berdasarkan dokumentasi apiary berikut https://testbinar.docs.apiary.io/. Boleh menggunakan bahasa apapun.
+  a. Sertakan panduan cara instalasi tools, pengaturan database, penggunaan kode dan cara ujicoba kode dalam file Readme.md
+  b. Sertakan tangkapan layar proses ujicoba API menggunakan postman.
+  c. Kode yang baik adalah kode yang bisa dibaca dan dipakai oleh orang lain.
+  ```
+## testbinar
+  Testbinar, adalah sebuah aplikasi *RESTFul API* penerapan dari https://testbinar.docs.apiary.io/ 
+  <br>Aplikasi ini dibangun menggunakan bahasa pemrograman PHP menggunakan framework [Laravel 5.4](https://laravel.com/docs/5.4) 
 
 ## Instalasi Program
 
@@ -34,24 +54,31 @@ Testbinar, adalah sebuah aplikasi *RESTFul API* penerapan dari https://testbinar
   8. ```> php artisan migrate```
   9. ```> php artisan db:seed```
   
-#### Menjalankan Aplikasi
+## Menjalankan Aplikasi
   - ```> php artisan serve```
 
-#### Tangkapan layar Postman
+## Tangkapan layar Postman
   
-  ##### Authentication
+  #### Authentication
   1. Login
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/login.png)
   2. Sign up
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/signup.png)
   
-  ##### CRUD v1
+  #### CRUD v1
   3. Show data
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/showdata.png)
   4. Show data by ID
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/showdatabyid.png)
   5. Create data
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/createdata.png)
   6. Update data
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/updatedata.png)
   7. Delete data by ID
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/deletedatabyid.png)
   
-  ##### Testing API v2
+  #### Testing API v2
   8. Show data
-
+     ![alt text](https://raw.githubusercontent.com/anombhayu/testbinar/master/docs/v2.png)
 
 
